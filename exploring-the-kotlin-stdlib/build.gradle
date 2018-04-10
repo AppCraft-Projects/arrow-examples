@@ -3,6 +3,7 @@ apply plugin: 'kotlin-platform-jvm'
 archivesBaseName = 'exploring-the-kotlin-stdlib'
 
 dependencies {
+    compile libraries.kotlin_stdlib
 
     compile libraries.slf4j_api
     compile libraries.slf4j_simple
