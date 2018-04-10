@@ -1,1 +1,4 @@
-rootProject.name = 'arrow-examples'
+rootProject.name = 'kotlin-code-examples'
+
+include ':fp-for-your-grandma'
+include ':exploring-the-kotlin-stdlib'

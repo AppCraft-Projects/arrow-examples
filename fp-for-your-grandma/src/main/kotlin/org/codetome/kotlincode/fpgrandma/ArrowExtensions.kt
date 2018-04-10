@@ -1,4 +1,4 @@
-package org.codetome.arrow
+package org.codetome.kotlincode.fpgrandma
 
 import arrow.syntax.eq.eqv
 import arrow.syntax.eq.neqv

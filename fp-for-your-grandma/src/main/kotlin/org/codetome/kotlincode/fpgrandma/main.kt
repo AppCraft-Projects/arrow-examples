@@ -1,10 +1,10 @@
-package org.codetome.arrow
+package org.codetome.kotlincode.fpgrandma
 
 import arrow.core.Option
 import arrow.core.getOrElse
-import org.codetome.arrow.Example1.Material.*
-import org.codetome.arrow.Example1.Part.*
-import org.codetome.arrow.Example1.ProductQuality.*
+import org.codetome.kotlincode.fpgrandma.Example1.Material.*
+import org.codetome.kotlincode.fpgrandma.Example1.Part.*
+import org.codetome.kotlincode.fpgrandma.Example1.ProductQuality.*
 import org.slf4j.LoggerFactory
 import kotlin.math.roundToInt
 

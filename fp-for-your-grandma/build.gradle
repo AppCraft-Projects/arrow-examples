@@ -1,0 +1,21 @@
+apply plugin: 'kotlin-platform-jvm'
+apply plugin: 'kotlin-kapt' //optional
+apply from: rootProject.file('gradle/generated-kotlin-sources.gradle') //optional
+
+archivesBaseName = 'fp-for-your-grandma'
+
+dependencies {
+
+    compile libraries.slf4j_api
+    compile libraries.slf4j_simple
+
+    compile libraries.arrow_core
+    compile libraries.arrow_typeclasses
+    compile libraries.arrow_instances
+    compile libraries.arrow_syntax
+    kapt libraries.arrow_annotations_processor
+
+    testCompile libraries.junit
+    testCompile libraries.mockito
+    testCompile libraries.assertj
+}
