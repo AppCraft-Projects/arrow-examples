@@ -1,0 +1,7 @@
+apply plugin: 'kotlin-platform-jvm'
+
+archivesBaseName = 'kotlin-library-development'
+
+dependencies {
+    compile libraries.kotlin_stdlib
+}

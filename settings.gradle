@@ -2,3 +2,4 @@ rootProject.name = 'kotlin-code-examples'
 
 include ':fp-for-your-grandma'
 include ':exploring-the-kotlin-stdlib'
+include ':kotlin-library-development'
